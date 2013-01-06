@@ -10,7 +10,7 @@ Cordova (iOS) Xcode Plugin Template
     $ cd ~/Library/Developer/Xcode/Templates/File\ Templates
     $ git clone https://github.com/RandyMcMillan/CDVTwitter.git
 
-![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot1.png)
+![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot.png)
 
 ###Usage:
 ####Open your Cordova (iOS) Xcode Project
