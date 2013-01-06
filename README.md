@@ -1,54 +1,64 @@
- CDVTwitter Plugin Xcode Template
+CDVTwitter
+===
 
-NEW PLIST VALUE is 
-
-___FILEBASENAME___ / ___FILEBASENAME___
-
-The ___FILEBASENAME___ Plugin needs to access the twitter api so relavent urls need to be added to the whitelist. 
-
-The TwitterPlugin uses the Accounts.framework and Twitter.framework therefore it is not supported on iOS 4
-
-================================
-
-The Twitter plugin for PhoneGap/Cordova allows you to take advantage of the Twitter integration that ships with iOS 5. Please note that to use the APIs you must compile the application on the iOS 5 SDK. The plugin will not cause any issues if it is run on a pre-iOS 5 OS as long as you always validate that the Twitter SDK is available (see **Twitter.isTwitterAvailable()**)
-
-This is licensed under MIT.
+Cordova (iOS) Xcode Plugin Template
+---
 
 
-Getting Started
-===============
 
-Download the latest version of PhoneGap from www.phonegap.com.
+###Installation:
+    $ cd ~/Library/Developer/Xcode/Templates/File\ Templates
+    $ git clone https://github.com/RandyMcMillan/CDVPlugin.git
 
-Create an iOS PhoneGap/Cordova project (Android not yet supported)
+![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot.png)
 
-Check out the /example/www/index.html to see how it works.
+###Usage:
+####Open your Cordova (iOS) Xcode Project
 
-<pre>
-|-native
-|  |-ios
-`-www
-   `-TwitterPlugin.js
-</pre>
+* Press <COMMAND+n>    
 
-/native/ios is the native code for the plugin on iOS
+    ![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot2.png)  
 
-/www/TwitterPlugin.js is the JavaScript code for the plugin
+* RENAME your Plugin! (_Do not use CDVPlugin_)  
 
-iOS (Mac OS X)
-===============
+    ![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot3.png)  
 
-1. Create a basic PhoneGap/Cordova iOS application. See http://www.phonegap.com/start/
-2. From the **iPhone/Twitter** (aka the current) folder copy the contents of the **native/ios** folder into your app in Xcode (usually in the **Plugins** folder group). Make sure it is added as a "group" (yellow folder)
-3. Find the Cordova.plist file in the project navigator, expand the "Plugins" sub-tree, and add a new entry. For the key, add **TwitterPlugin**, and its value will be **TwitterPlugin**
-4. From the **PhoneGap Twitter Plugin** folder copy the contents of the **www** folder into the **www** directory in Xcode (don't forget to add script tags in your index.html to reference any .js files copied over)
-5. Click on your project's icon (the root element) in Project Navigator, select your **Target**, and the **Build Phases** tab.
-6. From the **Build Phases** tab, expand **Link Binary With Libraries**, then click on the **+** button
-7. Select **Twitter.framework** and click Add, **also select **Accounts.framework** and click Add**
-8. for Xcode 4, you will need to build it once, and heed the warning - this is an Xcode 4 template limitation. The warning instructions will tell you to drag copy the **www** folder into the project in Xcode (add as a **folder reference** which is a blue folder).
-9. If you wish to allow users to share URLs and/or images you need to add a whitelist wildcard since you don't know which domains they'll reference. Simply add a wildcard entry (*) to external hosts whitelist (Cordova.plist/ExternalHosts).
-10. Run the application in Xcode.
+* Copy the MyCDVPlugin.js file to your /www folder
+
+    ![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot4.png)
+    
+[Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVPlugin/master/CDVPlugin.xctemplate/index.html)
 
 
-If you have issues with the app crashing with `EXC_BAD_ACCESS` on iOS Simulator you may have a weak linking issue. With your project highlighted in the left column in XCode go to Targets > Your Project > Build Settings > Linking > Other Linker Flags and replace `-weak_library` with `-weak-lSystem`
-For more information see: http://stackoverflow.com/questions/6738858/use-of-blocks-crashes-app-in-iphone-simulator-4-3-xcode-4-2-and-4-0-2
+<br><br>
+
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ 
+ 
+ or 
+ 
+ 
+The MIT License
+
+Copyright (c) 2012 Randy McMillan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
