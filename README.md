@@ -17,12 +17,12 @@ Cordova (iOS) Xcode Plugin Template
 
 * Press `<COMMAND+n>`    
 
-    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot1.png)  
+    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot2.png)  
 
 
     ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3.png)  
 
-* Copy the MyCDVPlugin.js file to your /www folder
+* Copy the CDVTwitter.js file to your /www folder
 
     ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot4.png)
     
