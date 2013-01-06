@@ -20,7 +20,11 @@ Cordova (iOS) Xcode Plugin Template
     ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot2.png)  
 
 
-    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3.png)  
+    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3.png)
+    
+* You MUST add ACcounts.framework and Twitter.framework to your project
+  
+    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3b.png)  
 
 * Copy the CDVTwitter.js file to your /www folder
 
