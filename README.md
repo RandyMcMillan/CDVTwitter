@@ -29,7 +29,7 @@ Cordova (iOS) Xcode Plugin Template
 [Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVTwitter/master/CDVTwitter.xctemplate/index.html)
 
 
-![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot.png)
+![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot1.png)
 
 
 <br><br>
