@@ -17,7 +17,7 @@ Cordova (iOS) Xcode Plugin Template
 
 * Press `<COMMAND+n>`    
 
-    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot2.png)  
+    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot1.png)  
 
 
     ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3.png)  
