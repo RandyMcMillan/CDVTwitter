@@ -22,7 +22,7 @@ Cordova (iOS) Xcode Plugin Template
 
     ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3.png)
     
-* You MUST add ACcounts.framework and Twitter.framework to your project
+* You MUST add Accounts.framework and Twitter.framework to your project
   
     ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3b.png)  
 
