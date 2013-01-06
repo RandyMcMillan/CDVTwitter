@@ -10,24 +10,24 @@ Cordova (iOS) Xcode Plugin Template
     $ cd ~/Library/Developer/Xcode/Templates/File\ Templates
     $ git clone https://github.com/RandyMcMillan/CDVPlugin.git
 
-![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot.png)
+![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot.png)
 
 ###Usage:
 ####Open your Cordova (iOS) Xcode Project
 
 * Press <COMMAND+n>    
 
-    ![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot2.png)  
+    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot2.png)  
 
 * RENAME your Plugin! (_Do not use CDVPlugin_)  
 
-    ![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot3.png)  
+    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot3.png)  
 
 * Copy the MyCDVPlugin.js file to your /www folder
 
-    ![image](https://raw.github.com/RandyMcMillan/CDVPlugin/master/ScreenShot4.png)
+    ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot4.png)
     
-[Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVPlugin/master/CDVPlugin.xctemplate/index.html)
+[Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVTwitter/master/CDVTwitter.xctemplate/index.html)
 
 
 <br><br>
