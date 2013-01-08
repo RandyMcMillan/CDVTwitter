@@ -7,7 +7,7 @@
 		<string>public.objective-c-source</string>
 	</array>
 	<key>Description</key>
-	<string>CDVTwitter Plugin Template.</string>
+	<string>Cordova iOS Twitter Plugin Template.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
