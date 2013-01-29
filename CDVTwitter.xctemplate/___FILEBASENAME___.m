@@ -11,7 +11,8 @@
 //
 
 #import "___FILEBASENAME___.h"
-#import <Cordova/JSONKit.h>
+//#import <Cordova/JSONKit.h>
+#import "JSONKit.h"
 #import <Cordova/CDVAvailability.h>
 
 #define TWITTER_URL @"http://api.twitter.com/1/"
@@ -129,7 +130,7 @@
 
 			if ([urlResponse statusCode] == 200) {
 				NSString *dataString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-				NSDictionary *dict = [dataString cdvjk_objectFromJSONString];
+				NSDictionary *dict = [dataString objectFromJSONString];
 				jsResponse = [[CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dict] toSuccessCallbackString:callbackId];
 				[dataString release];
 			} else {
@@ -187,7 +188,7 @@
 
 							if ([urlResponse statusCode] == 200) {
 								NSString *dataString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-								NSDictionary *dict = [dataString cdvjk_objectFromJSONString];
+								NSDictionary *dict = [dataString objectFromJSONString];
 								jsResponse = [[CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dict] toSuccessCallbackString:callbackId];
 								[dataString release];
 							} else {
@@ -260,7 +261,7 @@
 
 							if ([urlResponse statusCode] == 200) {
 								NSString *dataString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
-								NSDictionary *dict = [dataString cdvjk_objectFromJSONString];
+								NSDictionary *dict = [dataString objectFromJSONString];
 								jsResponse = [[CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dict] toSuccessCallbackString:callbackId];
 								[dataString release];
 							} else {
