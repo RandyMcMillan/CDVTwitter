@@ -90,7 +90,7 @@
 													messageAsString :errorMessage] toErrorCallbackString:callbackId]];
 	} else {
 #if TARGET_IPHONE_SIMULATOR
-			NSString *simWarning = @"Test TwitterPlugin on Real Hardware. Tested on Cordova 2.0.0";
+			NSString *simWarning = @"Test ___FILEBASENAME___ on Real Hardware. Tested on Cordova 2.3.0";
 			// EXC_BAD_ACCESS occurs on simulator unable to reproduce on real device
 			// running iOS 5.1 and Cordova 1.6.1
 			NSLog(@"%@", simWarning);
