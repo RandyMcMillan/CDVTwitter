@@ -36,7 +36,7 @@ Cordova (iOS) Xcode Plugin Template
 
 ![image](https://raw.github.com/RandyMcMillan/CDVTwitter/master/ScreenShot1.png)
 
-* You MUST add <plugin name="CDVTwitter" value="CDVTwitter" /> into the config.xml
+* You MUST add plugin name="CDVTwitter" value="CDVTwitter"  into the config.xml
 
 <br><br>
 
