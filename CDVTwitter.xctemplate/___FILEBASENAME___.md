@@ -16,6 +16,13 @@ ___FILEBASENAME___
 | ------------ |---| ------------- |
 | ___FILEBASENAME___ | String | ___FILEBASENAME___ |
 
+####or
+* Add config.xml values
+
+
+         <plugin name="___FILEBASENAME___" value="___FILEBASENAME___" />
+
+
 [Sample index.html is included in the generated plugin](https://raw.github.com/RandyMcMillan/CDVTwitter/master/CDVTwitter.xctemplate/index.html)
 
 
